@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    
+}
+
+.pict {
+    width: 1032px;
+}
+
+.pict .gambar {
+    
+    height: 300px;
+
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-image: url("../img/airbnbplus.jpg");
+    background-size: cover;
+}

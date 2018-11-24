@@ -1,0 +1,598 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif,BlinkMacSystemFont,Roboto;
+    color: rgb(78, 78, 78);
+    font-size: 14px;
+    line-height: 1.43;
+}
+
+header {
+    width: 100%;
+    height: 820px;
+    /* background-image: url("../img/airbnb\ 3100.jpg"); */
+    background-image: url("../img/airbnb\ 3100\ -\ Copy\ \(2\).jpg");
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 50%;
+    display: flex;
+    color: white;
+}
+
+.navbar {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 15px;
+    list-style-type: none;
+    font-size: 14.3px;
+    font-weight: bold;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.form {
+    background-color: #ffffff;
+    margin-left: 160px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    width: 380px;
+    height: 430px;
+    border-radius: 8px;
+    padding: 32px 32px 24px 32px;
+    display: block;
+}
+
+.form .judul h1 {
+    margin: 0;
+    font-family: inherit;
+    width: 377px;
+    height: 72px;
+}
+
+.form .lokasi {
+    margin-top: 18px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.form .lokasi input {
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 350px;
+    font-size: 16px;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 3px;
+}
+
+.form .check {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.form .check .checkIN {
+    margin-top: 18px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.form .check .checkIN input {
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 158px;
+    font-size: 17px;
+    border: 1px solid rgb(230, 229, 229);
+    /* border-radius: 3px; */
+}
+
+.form .check .checkOUT {
+    margin-top: 18px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.form .check .checkOUT input {
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 160px;
+    font-size: 17px;
+    border: 1px solid rgb(230, 229, 229);
+    /* border-radius: 3px; */
+}
+
+.form .tamu {
+    margin-top: 18px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.form .tamu input {
+    margin-top: 10px;
+    padding: 10px 15px;
+    width: 350px;
+    font-size: 16px;
+    border: 1px solid rgb(230, 229, 229);
+    border-radius: 3px;
+}
+
+.form .form-control button {
+    margin-top: 30px;
+    margin-left: 298px;
+    background: #f1305a;
+    color: #fff;
+    border: none;
+    padding: 16px 18px;
+    width: 85px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.text {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px; 
+    text-align: right;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row1 {
+    margin-left: 160px;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+.row1 .tema {
+    font-family: inherit;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.row1 .flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row1 .flex .galery1 {
+    margin-top: 15px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3px;
+    width: 250px;
+    height: 72px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row1 .flex .galery1 .pict1 img{
+    width: 96px;
+    height: 72px;
+}
+
+.row1 .flex .galery1 .nama1 {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row1 .flex .galery1 .nama1 a {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.row1 .flex .galery2 {
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3px;
+    width: 250px;
+    height: 72px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row1 .flex .galery2 .pict2 img{
+    width: 96px;
+    height: 72px;
+}
+
+.row1 .flex .galery2 .nama2 {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row1 .flex .galery2 .nama2 a {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.row1 .flex .galery3 {
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3px;
+    width: 250px;
+    height: 72px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row1 .flex .galery3 .pict3 img{
+    width: 96px;
+    height: 72px;
+}
+
+.row1 .flex .galery3 .nama3 {
+    padding-top: 25px;
+    padding-left: 15px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row1 .flex .galery3 .nama3 a {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.row2 {
+    margin-left: 160px;
+    margin-top: 60px;
+}
+
+.row2 .judul {
+    width: 40%;
+    font-family: inherit;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.row2 .judul .subjudul {
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.row2 .background {
+    margin-top: 15px;
+    width: 1032px;
+    height: 300px;
+    background-image: url("../img/airbnbplus.jpg");
+    background-size: cover;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.row2 .background .logo {
+    padding-top: 50px;
+    padding-left: 420px;
+}
+
+.row2 .background .telusuri button {
+    margin-top: 50px;
+    margin-left: 420px;
+    background: #ffffff;
+    color: rgb(85, 84, 84);
+    border: #ffffff;
+    padding: 16px 18px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: inherit;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.row3 {
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.row3 .judul {
+    font-family: inherit;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.row3 .galery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row3 .galery .galery1 {
+    width: 193px;
+    height: 241px;
+    background-image: url("../img/paris.jpg");
+    background-size: cover;
+}
+
+/* .row3 .galery .galery1 .pict1 img {
+    width: 100%;
+    height: auto;
+} */
+
+.row3 .galery .galery1 .negara1 {
+    padding-top: 150px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.row3 .galery .galery1 .harga1 {
+    padding-top: 1px;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+
+.row3 .galery .galery2 {
+    width: 193px;
+    height: 241px;
+    margin-left: 15px;
+    background-image: url("../img/tokyo.jpg");
+    background-size: cover;
+}
+
+/* .row3 .galery .galery2 .pict2 img {
+    width: 100%;
+    height: auto;
+} */
+
+.row3 .galery .galery2 .negara2 {
+    padding-top: 150px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.row3 .galery .galery2 .harga2 {
+    padding-top: 1px;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+
+.row3 .galery .galery3 {
+    width: 193px;
+    height: 241px;
+    margin-left: 15px;
+    background-image: url("../img/london.jpg");
+    background-size: cover;
+}
+
+/* .row3 .galery .galery3 .pict3 img {
+    width: 100%;
+    height: auto;
+} */
+
+.row3 .galery .galery3 .negara3 {
+    padding-top: 150px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.row3 .galery .galery3 .harga3 {
+    padding-top: 1px;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+
+.row3 .galery .galery4 {
+    width: 193px;
+    height: 241px;
+    margin-left: 15px;
+    background-image: url("../img/los\ angeles.jpg");
+    background-size: cover;
+}
+
+/* .row3 .galery .galery4 .pict4 img {
+    width: 100%;
+    height: auto;
+} */
+
+.row3 .galery .galery4 .negara4 {
+    padding-top: 150px;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+}
+
+.row3 .galery .galery4 .harga4 {
+    padding-top: 1px;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+
+.row3 .galery .galery5 {
+    width: 193px;
+    height: 241px;
+    margin-left: 15px;
+    background-image: url("../img/barcelona.jpg");
+    background-size: cover;
+}
+
+/* .row3 .galery .galery5 .pict5 img {
+    width: 100%;
+    height: auto;
+} */
+
+.row3 .galery .galery5 .negara5 {
+    padding-top: 150px;
+    padding-left: 50px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+
+.row3 .galery .galery5 .harga5 {
+    padding-top: 1px;
+    padding-left: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+}
+
+.row4 {
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.row4 .judul {
+    width: 40%;
+    font-family: inherit;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.row4 .judul .subjudul {
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.row4 .galery {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.row4 .galery .galery1 {
+    width: 508px;
+}
+
+.row4 .galery .galery1 .gambar1 {
+    /* width: 504px; */
+    height: 317px;
+    border: #ffffff;
+    border-radius: 4px;
+    background-image: url("../img/Family.jpg");
+    background-size: cover;
+}
+
+.row4 .galery .galery1 .desc1{
+    margin-top: 15px;
+}
+
+.row4 .galery .galery1 .desc1 a{
+    font-size: 12px;
+    color: rgb(128, 45, 14);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.row4 .galery .galery1 .subdesc1{
+    width: 80%;
+    margin-top: 5px;
+}
+
+.row4 .galery .galery1 .subdesc1 a{
+    font-size: 17px;
+    line-height: 18px;
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}
+
+.row4 .galery .galery2 {
+    margin-left: 20px;
+    width: 508px;
+}
+
+.row4 .galery .galery2 .gambar2 {
+    /* width: 504px; */
+    height: 317px;
+    border: #ffffff;
+    border-radius: 4px;
+    background-image: url("../img/Work.jpg");
+    background-size: cover;
+}
+
+.row4 .galery .galery2 .desc2{
+    margin-top: 15px;
+}
+
+.row4 .galery .galery2 .desc2 a{
+    font-size: 12px;
+    color: rgb(23, 41, 81);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.row4 .galery .galery2 .subdesc2{
+    width: 80%;
+    margin-top: 5px;
+}
+
+.row4 .galery .galery2 .subdesc2 a{
+    font-size: 17px;
+    line-height: 18px;
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+}

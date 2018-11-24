@@ -1,0 +1,83 @@
+body {
+    background: #88ff00;
+    margin: 0;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    color: #484848;
+}
+.container {
+    margin: 0;
+}
+.container img {
+    margin: 0;
+    width: 1360px;
+    height: 620px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container .coloumn {
+    background-color: #ffffff;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    width: 450px;
+    height: 550px;
+    border-radius: 5px;
+}
+.form-control1 {
+    padding: 20px 20px;
+    width: 500px;
+}
+.form-control input {
+    background: #ffffff;
+    padding: 10px 15px;
+    width: 370px;
+}
+.form-control-checkin input {
+    background: #ffffff;
+    padding: 10px 15px;
+    width: 165px;
+}
+.form-control-checkout input {
+    background: #ffffff;
+    padding: 10px 15px;
+    width: 165px;
+}
+.text-hint-opening {
+    margin-left: 600px;
+    font-size: 14px;
+    color: #fff;
+}
+.text-hint-in {
+    margin-left: 0;
+    font-size: 14px;
+}
+.text-hint-out {
+    margin-left: 210px;
+    font-size: 14px;
+}
+
+.form-control-tamu input {
+    background: #ffffff;
+    padding: 10px 15px;
+    width: 370px;
+}
+.submit {
+    margin-top: 10px;
+    margin-left: 315px;
+    background: #ff0037;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.navbar .text1 {
+    margin-top: 50px;
+    margin-left: 800px;
+    font-size: 14px;
+    color: #ffffff;
+    width: 200px;
+}
